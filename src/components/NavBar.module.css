@@ -1,0 +1,55 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0f0f0f;
+	width: 100%;
+	height: 85px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	margin-right: 10em;
+}
+
+.botao {
+	margin-left: 2.5em;
+}
+
+.container_logo {
+	margin-left: 10em;
+}
+
+.logo_netflix {
+	height: 85px;
+}
+
+.cadastrar {
+	background-color: white;
+	color: red;
+}
+
+@media (max-width: 426px) {
+
+    .nav {
+        height: 60px;
+    }
+
+	.buttons {
+		margin-right: 10px;
+	}
+
+	.botao{
+		margin-left: 20px;
+	}
+
+    .logo_netflix {
+        height: 40px;
+    }
+
+    .container_logo {
+        margin-left: 10px;
+    }
+
+}

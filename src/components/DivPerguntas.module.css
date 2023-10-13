@@ -1,0 +1,82 @@
+.container{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+	border-bottom: 10px solid #232323;
+}
+
+.container h2 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container details {
+    width: 90%;
+    margin: auto;
+    background-color: #2D2D2D;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container details span {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.container p {
+    background-color: #2D2D2D;
+    margin-top: 2px;
+    font-size: 24px;
+    padding: 20px 0 25px 50px;
+    border-top: 2px solid black;
+}
+
+.container details summary {
+    display: inline-block;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 35px;
+    width: 100%;
+}
+
+.container details summary::-webkit-details-marker {
+    display: none;
+}
+
+.container details:open {
+    margin: 20px;
+}
+
+.container section {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 426px) {
+    .container h2 {
+        font-size: 32px;
+    }
+
+    .container details span {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .container p {
+        font-size: 18px;
+        font-weight: normal;
+        padding-right: 10px;
+    }
+}
