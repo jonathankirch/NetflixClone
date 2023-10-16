@@ -69,3 +69,38 @@
 		margin-left: 10px;
 	}
 }
+
+@media (min-width:427px) and (max-width:768px) {
+	.container_img {
+		width: 319px;
+		height: 200px;
+		margin: auto;
+	}
+
+	.container_div_p {
+		margin: auto;
+		width: 400px;
+	}
+
+	.container h2 {
+		font-size: 35px;
+		text-align: center;
+	}
+	
+	.container p {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+@media (min-width:769px) and (max-width: 1025px){
+	.container_img {
+		width: 424px;
+		height: 305px;
+		margin: auto;
+	}
+
+	.container_div_p {
+		margin: auto;
+	}
+}
