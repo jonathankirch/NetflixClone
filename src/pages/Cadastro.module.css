@@ -3,8 +3,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-		url(../img/netflix-image.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/netflix-image.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	font-family: sans-serif;
@@ -17,7 +16,7 @@
 	height: 500px;
 	margin-top: 10px;
 	color: white;
-	width: 300px;
+	width: 500px;
 	padding: 50px;
 	padding-top: 60px;
 }
@@ -35,7 +34,7 @@
 }
 
 .input input {
-	width: 280px;
+	width: 300px;
 	border-radius: 5px;
 	border: none;
 	height: 100%;
@@ -73,6 +72,7 @@
 
 @media (max-width: 426px) {
 	.container {
+		width: 350px;
 		padding: 50px 0 0 0;
 	}
 
